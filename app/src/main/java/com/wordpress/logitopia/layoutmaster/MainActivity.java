@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void DoNotClick(View view, TextView v) {
+    public void DoNotClick(View view) {
         Toast.makeText(this,"Watch What Happens Next",Toast.LENGTH_SHORT).show();
 
 //        v.findViewById(R.id.showTextid);

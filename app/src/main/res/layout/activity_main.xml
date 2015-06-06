@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/green"
         android:onClick="ClickMe"
-        android:text="The Magic Happens Here" />
+        android:text="@string/button_text" />
 
     <View
         android:id="@+id/red"
@@ -60,7 +60,7 @@
             android:layout_gravity="center|end" />
 
         <View
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#FFFF00" />
@@ -72,7 +72,7 @@
             android:layout_gravity="center"
             android:background="#FBE9E7"
             android:onClick="DoNotClick"
-            android:text="DO NOT CLICK" />
+            android:text="@string/button_2_text" />
 
 
     </LinearLayout>
