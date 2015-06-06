@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        AnalogClock clock = (AnalogClock)findViewById(R.id.clockid);
 
-        TextView showtext = (TextView)findViewById(R.id.showTextid);
+
     }
 
     @Override
